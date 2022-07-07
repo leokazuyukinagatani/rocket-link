@@ -91,3 +91,14 @@ footer a {
   font-size: 1.4rem;
   color: var(--text-color);
 }
+
+.no-display {
+  display: none;
+}
+
+.icon-mode {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 5rem;
+}
