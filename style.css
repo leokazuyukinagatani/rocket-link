@@ -8,13 +8,16 @@
 :root {
   --bg-color: #E5E5E5;
   --text-color: #020202;
-  --primary-color: #9933c2;
-  --primary-color-dark: #6b3472;
+  --primary-color: #002df8;
+  --primary-color-dark: #0e1249;
+
 }
 
 body.dark-blue {
   --bg-color: #00082F;
   --text-color: #FFF;
+  --primary-color: #9933c2;
+  --primary-color-dark: #6b3472;
 }
 
 body {
