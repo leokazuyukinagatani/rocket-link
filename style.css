@@ -6,17 +6,22 @@
 }
 
 :root {
-  --fc-primary: #00082F;
-  --fc-secondary: #FFFFFF;
-  --bg-primary: #E5E5E5;
-  --btn-primary: #4263EB;
+  --bg-color: #E5E5E5;
+  --text-color: #020202;
+  --primary-color: #4263EB;
+  --primary-color-dark: #5e7cf5;
+}
+
+body.dark-blue {
+  --bg-color: #00082F;
+  --text-color: #FFF;
 }
 
 body {
-  background: var(--bg-primary);
+  background: var(--bg-color);
   font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
 }
-
 
 .container {
   text-align: center;
@@ -33,12 +38,11 @@ img.avatar {
   width: 10rem;
   height: 10rem;
   padding: 4px;
-  border: var(--btn-primary) solid 4px;  
+  border: var(--primary-color) solid 4px;  
 }
 
 h1 {
   font-size: 3.2rem;
-  color: var(--fc-primary);
   margin-top: 2.4rem;
   margin-bottom: .8rem;
 
@@ -46,7 +50,6 @@ h1 {
 
 .username {
   font-family: 'Roboto Mono', monospace;
-  color: var(--fc-primary);
   opacity: 0.8;
   font-size: 1.8rem;
 }
@@ -63,8 +66,8 @@ ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--btn-primary);
-  color: var(--fc-secondary);
+  background: var(--primary-color);
+  color: white;
   text-transform: uppercase;
   font-size: 1.4rem;
 
@@ -75,16 +78,16 @@ ul li a {
 }
 
 ul li a:hover {
-  background: #5e7cf5;
+  background: var(--primary-color-dark);
 }
 
 footer {
   font-size: 1.2rem;
   font-weight: 500;
-  color: var(--fc-primary);
   opacity: 0.6;
 }
 
 footer a {
-  color: var(--fc-primary);
+  font-size: 1.4rem;
+  color: var(--text-color);
 }
