@@ -115,3 +115,13 @@ footer a {
   min-height: 100vh;
   overflow: hidden;
 }
+
+#vanta-dark {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+}
